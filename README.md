@@ -12,6 +12,7 @@ A comprehensive collection of Data Structures and Algorithms implementations in 
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Topics Covered](#topics-covered)
+- [Upcoming Topics](#-upcoming-topics)
 - [Running the Code](#running-the-code)
 - [Testing](#testing)
 
@@ -108,12 +109,14 @@ DSA-ApnaCollege-SigmaCourse/
 ## 🚀 Getting Started
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/PriyankaGowda2005/DSA-ApnaCollege-SigmaCourse.git
    cd DSA-ApnaCollege-SigmaCourse
    ```
 
 2. **Verify Java Installation**:
+
    ```bash
    java -version
    javac -version
@@ -129,6 +132,7 @@ DSA-ApnaCollege-SigmaCourse/
 ## 📚 Topics Covered
 
 ### 1. Basic Java Programming
+
 - Variables and data types
 - Conditional statements
 - Loops (for, while, do-while)
@@ -137,10 +141,12 @@ DSA-ApnaCollege-SigmaCourse/
 - Pattern printing
 
 ### 2. Arrays
+
 - Array introduction and operations
 - Array traversal and manipulation
 
 ### 3. ArrayList
+
 - ArrayList implementation
 - Basic operations (add, remove, get, set)
 - Multi-dimensional ArrayList
@@ -152,6 +158,7 @@ DSA-ApnaCollege-SigmaCourse/
   - Sorting and reversing
 
 ### 4. Linked List
+
 - Singly Linked List
 - Doubly Linked List
 - Circular Linked List
@@ -166,6 +173,7 @@ DSA-ApnaCollege-SigmaCourse/
   - Zig-zag pattern
 
 ### 5. Stack
+
 - Stack implementation using:
   - ArrayList
   - Linked List
@@ -180,9 +188,11 @@ DSA-ApnaCollege-SigmaCourse/
   - Push at bottom of stack
 
 ### 6. Queue
+
 - Queue data structure (to be implemented)
 
 ### 7. Backtracking
+
 - Permutations
 - Subsets
 - N-Queens problem
@@ -191,6 +201,7 @@ DSA-ApnaCollege-SigmaCourse/
 - Array changes
 
 ### 8. Basic Sorting Algorithms
+
 - Bubble Sort (with optimization)
 - Selection Sort
 - Insertion Sort
@@ -198,6 +209,7 @@ DSA-ApnaCollege-SigmaCourse/
 - Built-in sorting methods
 
 ### 9. Divide and Conquer
+
 - Merge Sort
 - Quick Sort
 - Search in rotated sorted array
@@ -205,19 +217,34 @@ DSA-ApnaCollege-SigmaCourse/
 - Inversion count
 - String sorting
 
+## 🚧 Upcoming Topics
+
+The following advanced topics will be updated soon:
+
+- **Graph**: Graph representations, traversal algorithms (BFS, DFS), shortest path algorithms, minimum spanning tree
+- **Dynamic Programming (DP)**: Memoization, tabulation, classic DP problems
+- **Trie**: Trie data structure implementation and applications
+- **Tree**: Binary Tree, Binary Search Tree (BST), tree traversals, tree operations
+- **Binary Search Tree (BST)**: Insertion, deletion, searching, and various BST operations
+
+Stay tuned for updates! 🔔
+
 ## 💻 Running the Code
 
 ### Compile a Java file:
+
 ```bash
 javac <package-name>/<filename>.java
 ```
 
 ### Run a Java file:
+
 ```bash
 java <package-name>.<classname>
 ```
 
 ### Example:
+
 ```bash
 # Compile
 javac Basic/hello.java
@@ -233,6 +260,7 @@ java Basic.hello
 Some algorithms include JUnit test cases. To run tests:
 
 1. **Using JUnit JAR** (included in `lib/` folder):
+
    ```bash
    java -cp "lib/junit-platform-console-standalone-1.13.0-M3.jar:." org.junit.platform.console.ConsoleLauncher --class-path . --select-class DivideAndConquer.mergeSortTest
    ```
@@ -240,6 +268,7 @@ Some algorithms include JUnit test cases. To run tests:
 2. **Using IDE**: Most IDEs support running JUnit tests directly through the test runner.
 
 ### Test Files Available:
+
 - `mergeSortTest.java`
 - `quickSortTest.java`
 - `inversionCountTest.java`
@@ -269,6 +298,7 @@ This project is for educational purposes. Feel free to use and modify the code f
 ## 🎓 Learning Path
 
 Suggested learning order:
+
 1. **Basic** → Start with fundamental Java concepts
 2. **Arrays** → Understand array operations
 3. **ArrayList** → Learn dynamic arrays
@@ -283,4 +313,3 @@ Suggested learning order:
 **Happy Coding! 🚀**
 
 For questions or suggestions, feel free to open an issue or contribute to the repository.
-
