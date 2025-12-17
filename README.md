@@ -1,5 +1,7 @@
 # Data Structures and Algorithms (DSA) - Java Implementation
 
+**Repository:** [DSA-ApnaCollege-SigmaCourse](https://github.com/PriyankaGowda2005/DSA-ApnaCollege-SigmaCourse)
+
 A comprehensive collection of Data Structures and Algorithms implementations in Java. This repository serves as a learning resource covering fundamental programming concepts, data structures, and algorithmic problem-solving techniques.
 
 ## 📋 Table of Contents
@@ -28,7 +30,7 @@ This repository contains well-documented Java implementations of various data st
 ## 📁 Project Structure
 
 ```
-DSA-Final/
+DSA-ApnaCollege-SigmaCourse/
 │
 ├── Basic/                    # Fundamental Java concepts
 │   ├── hello.java
@@ -105,10 +107,10 @@ DSA-Final/
 
 ## 🚀 Getting Started
 
-1. **Clone the repository** (if applicable):
+1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd DSA-Final
+   git clone https://github.com/PriyankaGowda2005/DSA-ApnaCollege-SigmaCourse.git
+   cd DSA-ApnaCollege-SigmaCourse
    ```
 
 2. **Verify Java Installation**:
